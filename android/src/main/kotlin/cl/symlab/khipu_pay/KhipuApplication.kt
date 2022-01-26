@@ -1,4 +1,4 @@
-package cl.juanvegu.khipu_pay
+package cl.symlab.khipu_pay
 
 import com.browser2app.khenshin.Khenshin
 import com.browser2app.khenshin.KhenshinApplication

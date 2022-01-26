@@ -1,4 +1,4 @@
-package cl.juanvegu.khipu_pay
+package cl.symlab.khipu_pay
 
 import android.app.Activity
 import android.content.Intent

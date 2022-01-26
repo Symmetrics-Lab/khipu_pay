@@ -1,4 +1,4 @@
-group 'cl.juanvegu.khipu_pay'
+group 'cl.symlab.khipu_pay'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -33,6 +33,8 @@ android {
     }
     defaultConfig {
         minSdkVersion 16
+        // Enabling multidex support.
+        multiDexEnabled true
     }
     lintOptions {
         disable 'InvalidPackage'
@@ -40,6 +42,7 @@ android {
 }
 
 dependencies {
+    implementation 'androidx.multidex:multidex:2.0.1'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'com.browser2app:khenshin:7.1.2'
 }
