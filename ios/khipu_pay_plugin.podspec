@@ -13,7 +13,7 @@ Plugin to create payment identifiers, process payments and verify the status of 
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'JuanVeGu' => 'juanvergara34@gmail.com' }
   s.source           = { :path => '.' }
-  s.source_files  = "*.{h,m}"
+  s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'khenshin', '~> 1.724'
   s.platform = :ios, '9.0'
