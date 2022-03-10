@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'khipu_pay_plugin'
-  s.version          = '1.1.0'
+  s.version          = '1.1.5'
   s.summary          = 'Plugin Khipu Platform.'
   s.description      = <<-DESC
 Plugin to create payment identifiers, process payments and verify the status of a payment through the Khipu Platform.
