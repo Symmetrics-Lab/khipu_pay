@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'khipu_pay_plugin'
-  s.version          = '1.1.5'
+  s.version          = '1.2.0'
   s.summary          = 'Plugin Khipu Platform.'
   s.description      = <<-DESC
 Plugin to create payment identifiers, process payments and verify the status of a payment through the Khipu Platform.
@@ -19,6 +19,6 @@ Plugin to create payment identifiers, process payments and verify the status of 
   s.platform = :ios, '9.0'
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
-  s.swift_version = '5.0'
+  # s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64' }
+  # s.swift_version = '5.0'
 end
