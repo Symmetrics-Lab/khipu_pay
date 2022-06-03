@@ -44,5 +44,5 @@ android {
 dependencies {
     implementation 'androidx.multidex:multidex:2.0.1'
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'com.browser2app:khenshin:7.1.2'
+    implementation 'com.browser2app:khenshin:7.5.6'
 }
